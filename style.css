@@ -1,0 +1,153 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00203f;
+    height: 100%;
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+
+/* css for nav bar */
+.icon-bar {
+    height: 100%;
+    width: 92px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #232323;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px
+}
+
+.icon-bar a {
+    padding: 16px;
+    text-align: center;
+    color: #000000;
+    display: block;
+}
+
+.material-icons {
+    font-size: 54px;
+}
+
+.icon-bar a.active {
+    color: white;
+    background-color: #49db9e;
+}
+
+.icon-bar a:hover:not(.active) {
+    color: white;
+    background-color: #49db9e;
+    transition-duration: 0.7s;
+}
+
+/* end of nav bar css */
+
+.main {
+    margin-left: 92px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 1px 16px;
+    text-align: center;
+    height: 100%;
+    color: white;
+}
+
+
+
+
+
+
+
+/* css for main title */
+
+/* <div class="title">
+    <a href="">
+        <h1 class="label success new-label"><span class="">Nice to meet you!</h1>
+    </a>
+</div> */
+
+.title {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #49db9e;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.label {
+    padding: 1px 3px 2px;
+    color: #ffffff;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.title:hover a h1.new-label span {
+    display: none;
+    text-align: center;
+}
+
+
+
+/* end of title css */
+
+
+/* css for david */
+.title2 {
+    margin: auto;
+    width: 330px;
+}
+
+.main h2 {
+    font-size: 60px;
+}
+
+.word {
+    color: #fa4454;
+}
+
+.title2:hover a .new-label span {
+    display: none;
+    text-align: center;
+}
+
+/* end of css for david */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
