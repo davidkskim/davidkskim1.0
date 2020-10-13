@@ -13,6 +13,7 @@ body {
 }
 
 
+
 /* css for nav bar */
 .icon-bar {
     height: 100%;
@@ -26,7 +27,7 @@ body {
     padding-top: 20px;
 }
 
-img {
+.icon-bar img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -69,20 +70,7 @@ img {
     color: white;
 }
 
-
-
-
-
-
-
 /* css for main title */
-
-/* <div class="title">
-    <a href="">
-        <h1 class="label success new-label"><span class="">Nice to meet you!</h1>
-    </a>
-</div> */
-
 .title {
     margin: auto;
     width: 700px;
@@ -92,7 +80,7 @@ img {
 .main h1 {
     font-size: 80px;
     text-align: center;
-    color: #49db9e;
+    color: #fa4454;
 }
 
 a {
@@ -114,10 +102,8 @@ a {
 .title:hover a h1.new-label span {
     display: none;
     text-align: center;
+    text-decoration: none;
 }
-
-
-
 /* end of title css */
 
 
@@ -132,14 +118,14 @@ a {
 }
 
 .word {
-    color: #fa4454;
+    color: #49db9e;
 }
 
 .title2:hover a .new-label span {
     display: none;
     text-align: center;
+    text-decoration: none;
 }
-
 /* end of css for david */
 
 @media screen and (max-height: 450px) {
@@ -150,4 +136,224 @@ a {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.about_me {
+    margin-left: 84px;
+    margin-right: -8px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 1px 16px;
+    text-align: left;
+    height: 100%;
+    color: white;
+}
+
+.about_me h2{
+    margin-bottom: 15px;
+}
+
+.left{
+    background-color: white;
+    float: left;
+    width: 45%;
+    margin-left: -5px;
+    height:585px;
+}
+
+.left img {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%;
+    width: 60%;
+    border-style:solid;
+    border-color:#49db9e;
+    border-width:8px;
+    border-radius: 13px;
+}
+
+.interests{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #49db9e;
+    color: white;
+    border-width:8px;
+    border-radius: 13px;
+}
+
+.interests h3{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.interests ul {
+    margin-left:10px;
+    font-size: 19px;
+}
+
+.right{
+    background-color: white;
+    float: right;
+    width: 55%;
+    margin-right: -5px;
+    height:585px;
+}
+*{
+    box-sizing: border-box;
+}
+.bubble1 {
+    float: right;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 0px;
+    width: 140px;
+    max-width: 100%;
+    background: #fa4454;
+    border-radius: 10px;
+    padding-top:20px;
+    padding-right:10px;
+    margin-top: 25px;
+    margin-right: 10px;
+    text-align: right;
+    color: #fff;
+    z-index: 1;
+    height:auto;
+}
+
+.bubble-top-right:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 24px solid#fa4454;
+    border-top: 12px solid #fa4454;
+    border-bottom: 20px solid transparent;
+    left: 72px;
+    bottom: -14px;
+    z-index: -1;
+}
+.bubble2 {
+    float: left;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 500px;
+    background: #49db9e;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: left;
+    color: #fff;
+    z-index: 1;
+}
+
+.bubble-top-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #49db9e;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #49db9e;
+    border-bottom: 20px solid transparent;
+    left: 32px;
+    bottom: -14px;
+    z-index: -1;
+}
+
+.bubble3 {
+    float: right;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 0px;
+    width: 420px;
+    background: #fa4454;
+    border-radius: 10px;
+    padding-top:20px;
+    padding-right:10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    text-align: right;
+    color: #fff;
+    z-index: 1;
+}
+
+.bubble-bottom-right:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 24px solid#fa4454;
+    border-top: 12px solid #fa4454;
+    border-bottom: 20px solid transparent;
+    left: 352px;
+    bottom: -14px;
+    z-index: -1;
+}
+
+.bubble4 {
+    float: left;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 500px;
+    background: #49db9e;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    color: #fff;
+    z-index: 1;
+}
+
+.bubble-bottom-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #49db9e;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #49db9e;
+    border-bottom: 20px solid transparent;
+    left: 32px;
+    bottom: -14px;
+    z-index: -1;
+}
+
+.portfolio{
+    margin-left: 84px;
+    margin-right: -8px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 1px 16px;
+    text-align: left;
+    height: 100%;
+    color: white;
+}
+
+.card-body {
+    min-height: 200px;
+    min-width: 300px;
+    margin-right: 20px;
+    color: black;
+}
+
+.scroll{
+    display: none;
 }

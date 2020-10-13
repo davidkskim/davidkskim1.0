@@ -4,6 +4,11 @@
 <head>
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="rain.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -12,14 +17,14 @@
             font-size: 61px;
             content: '만나서 반갑습니다!';
             text-align: center;
-            color: #fa4454;
+            color: #49db9e;
         }
 
         .title2:hover a h2.new-label:after {
-            font-size: 50px;
+            font-size: 48px;
             content: '강석';
             text-align: center;
-            color: #49db9e;
+            color: #fa4454;
         }
     </style>
 </head>
@@ -39,13 +44,7 @@
     <div class="icon-bar">
         <img src="img/icon.png" text-align=center>
         </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
+
         <a href="#home"><i class="material-icons">home</i></a>
         <a href="#about"><i class="material-icons">person</i></a>
         <a href="#portfolio"><i class="material-icons">library_books</i></a>
@@ -58,18 +57,88 @@
     </br>
     <div class="main">
         <div class="title">
-            <a href="#">
+            <a href="#" class="text-decoration-none">
                 <h1 class="label success new-label"><span class="">Nice to meet you!</h1>
             </a>
         </div>
         <div class="title2">
-            <a href="#">
+            <a href="#" class="text-decoration-none">
                 <h2 class="label success new-label">I'm <span class="word">David</span></h2>
             </a>
         </div>
         <p>Product Designer / Web Developer</p>
     </div>
 
+    <div class="about_me">
+        <h1>About Me</h1>
+        <div class="left">
+            <div class="profile">
+                <img src="img/profilepic.png" text-align=center>
+            </div>
+            </br>
+
+
+            <div class="interests">
+                <h3>Interests:</h3>
+                <ul>
+                    <li>Video Games: Monster Hunter, Final Fantasy,
+                        LOL, Smash, Pokémon, a bunch of others!
+                    <li>Geometric Art</li>
+                    <li>Swing Music</li>
+                    <li>TV shows/anime/movies</li>
+                    <li>Puzzles</li>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="bubble1 bubble-top-right">
+                <p>Who are you?</p>
+            </div>
+            <div class="bubble2 bubble-top-left">
+                <p>My name is David Kim. I’m a product designer who is also learning the in’s and out’s of being a
+                    full-stack-developer.</p>
+            </div>
+            <div class="bubble3 bubble-bottom-right">
+                <p>What made you want to pursue a career in tech?</p>
+            </div>
+            <div class="bubble4 bubble-bottom-left">
+                <p>My tech fascination stems from my early childhood as I was enamored by video games and how
+                    satisfying it was to navigate through its menu and functions. It wasn’t until I received my
+                    first cellphone that I realized I had a passion for technology. I would spend hours
+                    trying out different designs and layouts to synergize with the placement of the apps and widgets to
+                    enhance my own user flow. My interest has only grown over the years as technology
+                    improves. As I continue to learn more about tech, I hope that I one day become part of a team that
+                    will lead others in the field of product design and web development.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <h1>Portfolio</h1>
+        </br>
+        <div class="design">
+            <div class="container-fluid py-2">
+                <h3>Design</h3>
+                <div class=" scroll d-flex flex-row flex-nowrap overflow-auto">
+                    <div class="card card-body">Card</div>
+                    <div class="card card-body">Card</div>
+                    <div class="card card-body">Card</div>
+                    <div class="card card-body">Card</div>
+                </div>
+            </div>
+        </div>
+        <div class="program">
+            <div class="container-fluid py-2">
+                <h3>Programming</h3>
+                <div class="d-flex flex-row flex-nowrap overflow-auto">
+                    <div class="card card-body">Card</div>
+                    <div class="card card-body">Card</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
