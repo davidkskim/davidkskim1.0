@@ -357,13 +357,6 @@ a {
     padding: 10px;
 }
 
-.card-body img{
-    border-style:solid;
-    border-color:#49db9e;
-    border-width:8px;
-    border-radius: 13px;
-    max-width:100%;
-}
 
 .scroll{
     display: none;
