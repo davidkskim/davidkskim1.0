@@ -140,8 +140,8 @@ a {
 }
 
 .about_me {
-    margin-left: 84px;
-    margin-right: -8px;
+    margin-left: 92px;
+    margin-right: 0px;
     /* Same as the width of the sidenav */
     font-size: 28px;
     /* Increased text to enable scrolling */
@@ -337,8 +337,40 @@ a {
 }
 
 .portfolio{
-    margin-left: 84px;
-    margin-right: -8px;
+    margin-left: 92px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 1px 16px;
+    text-align: left;
+    height: 700px;
+    color: white;
+}
+
+.card-body {
+    min-height: 150px;
+    min-width: 250px;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    /* font-size: 18px;  */
+}
+
+.card-body p{
+    font-size: 18px; 
+}
+
+.scroll{
+    display: none;
+}
+
+.skills{
+    height:100%;
+    margin-left: 92px;
+    margin-right: 0px;
     /* Same as the width of the sidenav */
     font-size: 28px;
     /* Increased text to enable scrolling */
@@ -346,18 +378,59 @@ a {
     text-align: left;
     height: 100%;
     color: white;
+    
 }
 
-.card-body {
-    min-height: 200px;
-    min-width: 300px;
-    margin-right: 20px;
-    color: black;
+.ability{
+    background-color: white;
+float:left;
+    width:65%;
+    margin-left: 5px;
+    margin-right: -10px;
+    height:400px;
+    color: #49db9e;
+    text-align: left;
+    font-size: 150px;
+}
+
+.resume{
+    background-color: white;
+    float:right;
+    width:30%;
+    margin-left: 5px;
+    margin-right: -10px;
+    height:400px;
+    color: #49db9e;
     text-align: center;
-    padding: 10px;
+    font-size: 25px;
 }
 
+.resume .material-icons{
+    color: #49db9e;
+    font-size:300px;
+}
+.contact{
+    height:100%;
+    margin-left: 92px;
+    margin-right: -10px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 1px 16px;
+    text-align: left;
+    height: 100%;
+    color: white;
+    
+}
 
-.scroll{
-    display: none;
+.links{
+
+    width:100%;
+    margin-left: 5px;
+    margin-right: -10px;
+    height:125px;
+    color: #49db9e;
+    text-align: center;
+    font-size: 100px;
+    text-decoration:none;
 }
