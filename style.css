@@ -156,7 +156,7 @@ a {
 }
 
 .left{
-    background-color: white;
+    /* background-color: white; */
     float: left;
     width: 44%;
     margin-left: 5px;
@@ -165,14 +165,12 @@ a {
 
 .left img {
     display: block;
-    margin-top: 10px;
+    margin-top:100px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     max-width: 100%;
     width: 70%;
-    border-style:solid;
-    border-color:#49db9e;
     border-width:8px;
     border-radius: 13px;
 }
@@ -202,7 +200,10 @@ a {
     width: 55%;
     margin-right: -5px;
     height:585px;
+    border-width:8px;
+    border-radius: 13px;
 }
+
 *{
     box-sizing: border-box;
 }
@@ -339,7 +340,7 @@ a {
 .portfolio{
     margin-left: 92px;
     margin-right: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 150px;
     /* Same as the width of the sidenav */
     font-size: 28px;
     /* Increased text to enable scrolling */
@@ -350,7 +351,7 @@ a {
 }
 
 .card-body {
-    min-height: 150px;
+    min-height: 200px;
     min-width: 250px;
     margin-right: 20px;
     color: black;
@@ -383,8 +384,6 @@ a {
 
 .ability{
     background-color: white;
-float:left;
-    width:65%;
     margin-left: 5px;
     margin-right: -10px;
     height:400px;
@@ -393,22 +392,6 @@ float:left;
     font-size: 150px;
 }
 
-.resume{
-    background-color: white;
-    float:right;
-    width:30%;
-    margin-left: 5px;
-    margin-right: -10px;
-    height:400px;
-    color: #49db9e;
-    text-align: center;
-    font-size: 25px;
-}
-
-.resume .material-icons{
-    color: #49db9e;
-    font-size:300px;
-}
 .contact{
     height:100%;
     margin-left: 92px;
@@ -433,4 +416,8 @@ float:left;
     text-align: center;
     font-size: 100px;
     text-decoration:none;
+}
+
+.material-icons-resume {
+    font-size: 100px;
 }
