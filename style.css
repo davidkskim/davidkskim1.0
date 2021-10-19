@@ -69,10 +69,7 @@ body {
     }
   }
 
-/* css for nav bar */
-.material-icons {
-    font-size: 54px;
-}
+
 
 /* end of nav bar css */
 
@@ -445,10 +442,10 @@ a {
     width:100%;
     margin-left: 5px;
     margin-right: -10px;
-    height:125px;
+    height:75px;
     color: #49db9e;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
     text-decoration:none;
 }
 
